@@ -1,0 +1,39 @@
+.imge{
+    width: 25px;
+    height: 15px;
+    margin-right: 5px;
+}
+.tableCurrency{
+    border: 1px solid #417e92;
+    border-radius: 10px;
+    width: 15vw;
+    padding-right: 0px;
+}
+.kendoCurrencyGrid{
+    width: 11vw;
+} 
+.tableCurrency div table tbody tr td{
+    border: 0px !important;
+    padding: 2px 0;
+    color:#02536e; 
+}
+.tableCurrency div table tbody tr{
+    background-color: #fff;
+}
+.tableCurrency .k-grid{
+    margin-left: 10px ;
+    padding: 5px 7px 5px 20px;
+}
+.gridCurrencyTitle{
+    color: #02536e;
+    margin-left: 10px;
+    font-size: 16px
+}
+.CoursValue{
+    text-align: right;
+    padding-right: 10px;
+    font-size: 11px
+}
+.cours{
+    font-size: 12px;
+}
