@@ -37,3 +37,6 @@
 .cours{
     font-size: 12px;
 }
+.tableCurrency div table thead{
+    display: none;
+}
