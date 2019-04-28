@@ -15,6 +15,5 @@ export function createCurrency(rootElement, outColumns, gridData, gridTitle){
                 selectable: "cell"
             }).addClass("kendoCurrencyGrid")
         ).addClass("tableCurrency")
-    );
-    $("thead").hide()
+    )
 }
