@@ -1,12 +1,13 @@
 .imge{
     width: 25px;
-    height: 15px;
+    height: 12px;
     margin-right: 5px;
 }
 .tableCurrency{
     border: 1px solid #417e92;
     border-radius: 10px;
     width: 15vw;
+    height: 125px;
     padding-right: 0px;
 }
 .kendoCurrencyGrid{
@@ -27,7 +28,7 @@
 .gridCurrencyTitle{
     color: #02536e;
     margin-left: 10px;
-    font-size: 16px
+    font-size: 1.1vw
 }
 .CoursValue{
     text-align: right;
@@ -35,8 +36,18 @@
     font-size: 11px
 }
 .cours{
-    font-size: 12px;
+    font-size: 0.7vw;
 }
 .tableCurrency div table thead{
     display: none;
 }
+
+@media screen and (min-width: 1550px) {
+    .cours{
+        font-size:14px;
+    }
+    .tableCurrency .k-grid{
+
+        padding: 0px;
+    }
+  }
